@@ -8,3 +8,11 @@ function sayHello(name='word'){
 }
 
 sayHello();
+sayHello('people');
+
+function helloName(user={name:'Anon'}){ //specifying default object
+    console.log('hello '+user.name+' !');
+}
+
+helloName();
+helloName({name:'rajat'});
