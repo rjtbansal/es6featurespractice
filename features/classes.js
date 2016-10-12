@@ -15,6 +15,7 @@ class Person{
 }
 
 var person1=new Person('rajat'); //class instantiated
+//person1.name='tata'; //doesnt capitalize first letter when we directly try to change from here..requires setter and getter which is discussed in part 2
 //console.log(person1.name); //accessing the name property
 person1.sayHello();
 
